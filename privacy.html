@@ -29,9 +29,10 @@
 <h2>Anonymous play statistics</h2>
 <p>To balance the game, it sends anonymous play statistics to PostHog, an analytics service, on servers in the European Union. They are game data only, for example:</p>
 <ul>
-  <li>a session began: the kind of device (touch or mouse), the screen size rounded to 100 pixels, the language, and whether it is the web game or the Android app;</li>
-  <li>a watch began or ended: the star, how long it lasted, what ended it, alterations and powers used, brass gathered;</li>
-  <li>the prologue watched or skipped, a tutorial step reached, the Workshop, the journey's map or the achievements opened, a world's result, the daily watch's result, a result card shared (only how: never the picture, the words or who it went to).</li>
+  <li>a session began or ended: the kind of device (touch or mouse), the screen size rounded to 100 pixels, the language, whether it is the web game or the Android app, how long the game was open and where you left it, and how many sessions there have been with the days since the first and the last (counted on your device, which keeps only the day numbers it needs; no date is sent);</li>
+  <li>a watch began or ended: the star, how long it lasted, what ended it, alterations and powers used, brass gathered, how smoothly the game ran (frames per second);</li>
+  <li>during a watch: which alteration you took from the ones offered, and how long you took to choose;</li>
+  <li>the prologue watched or skipped, a tutorial step reached, the Workshop, the journey's map or the achievements opened, a world's result, the daily watch's result, the first time you reach a step (your first comet broken, your first dawn), what you chose after a watch, whether you read a watch's briefing or skipped it, a result card shared (only how: never the picture, the words or who it went to).</li>
 </ul>
 <p>They contain no name, no email, no account, no advertising ID and no device ID, and the game stores nothing on your device to recognise you. You can turn them off at any time from the game's title screen. In a browser that sends Global Privacy Control or Do Not Track, they are off.</p>
 <p>PostHog receives your device's IP address when the statistics are sent, as any internet service does, and may use it to estimate a rough location (country and city) recorded with them. The game itself never asks for or uses your location.</p>
